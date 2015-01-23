@@ -105,8 +105,16 @@ textarea {
 
 /* Logo */
 .logo {
+    z-index: 9999;
     position: absolute;
-    padding: 40px;
+    margin: 40px;
+
+    /*icon*/
+    width: 60px;
+    height: 60px;
+
+    background-image: url(../img/site/symbol@2x.png) 0 0 no-repeat;
+    background-image: -webkit-image-set(url(../img/site/symbol.png) 1x, url(../img/site/symbol@2x.png) 2x);
 }
 
 /* About */
