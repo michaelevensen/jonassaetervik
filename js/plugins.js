@@ -39,6 +39,12 @@ $(function(){
 
 // about
 $('.logo').click(function() {
-    $('.images').toggle();
-  $('.about').toggle();
+    $('.images, .about').toggle();
+    // $('.about').toggle();
+});
+
+
+$(window).load(function() {
+  // When the page has loaded
+  $(".images").fadeIn(200);
 });
