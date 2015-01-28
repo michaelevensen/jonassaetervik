@@ -24,9 +24,10 @@ html {
 
     background: url(../img/site/ajax-loader.gif);
 
-    background-position: center center;
+    background-position: center 45%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding-bottom: 1px; /*fixes safari animation*/
 }
     
 /*
