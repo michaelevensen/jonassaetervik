@@ -25,7 +25,7 @@
 // images
 $(function(){
 
-    $('body').addClass('loading');
+    // $('body').addClass('loading');
     $('.images img:gt(0)').hide();
 
     // fadeinout time
@@ -52,6 +52,6 @@ $(window).load(function() {
   $(".images").fadeIn(200);
 
   //remove loader
-  $('body').removeClass('loading');
+  $('html').css('background', 'none');
   
 });

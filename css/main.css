@@ -21,8 +21,14 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-}
 
+    background: url(../img/site/ajax-loader.gif);
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+    
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -155,13 +161,13 @@ textarea {
 }
 
 /*loader*/
-.loading {
+/*.loading {
     background: url(../img/site/ajax-loader.gif);
 
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
+}*/
 
 .unselectable {
     -webkit-touch-callout: none;
