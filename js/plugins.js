@@ -24,6 +24,8 @@
 
 // images
 $(function(){
+
+    $('body').addClass('loading');
     $('.images img:gt(0)').hide();
 
     // fadeinout time
@@ -37,14 +39,19 @@ $(function(){
     });
 });
 
+
+
 // about
 $('.logo').click(function() {
     $('.images, .about').toggle();
-    // $('.about').toggle();
 });
 
 
 $(window).load(function() {
   // When the page has loaded
   $(".images").fadeIn(200);
+
+  //remove loader
+  $('body').removeClass('loading');
+  
 });

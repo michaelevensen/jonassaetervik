@@ -154,6 +154,15 @@ textarea {
     display: none;
 }
 
+/*loader*/
+.loading {
+    background: url(../img/site/ajax-loader.gif);
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
