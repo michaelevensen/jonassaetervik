@@ -24,8 +24,6 @@
 
 // images
 $(function(){
-
-    // $('body').addClass('loading');
     $('.images img:gt(0)').hide();
 
     // fadeinout time
