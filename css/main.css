@@ -113,7 +113,6 @@ textarea {
     width: 60px;
     height: 60px;
 
-    /*background-image: url(../img/site/symbol.png) 0 0 no-repeat;*/
     background: url(../img/site/symbol.png) 0 0 no-repeat;
     /*background-image: -webkit-image-set(url(../img/site/symbol.png) 1x, url(../img/site/symbol@2x.png) 2x);*/
 }
